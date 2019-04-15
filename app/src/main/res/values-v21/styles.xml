@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Black" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:colorPrimary">@color/blacklightPrimary</item>
+        <item name="android:colorPrimaryDark">@color/blackPrimaryDark</item>
+        <item name="android:colorAccent">@color/blackAccent</item>
+    </style>
+
+    <style name="Blue" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:colorPrimary">@color/bluelightPrimary</item>
+        <item name="android:colorPrimaryDark">@color/bluePrimaryDark</item>
+        <item name="android:colorAccent">@color/blueAccent</item>
+    </style>
+
+    <style name="Purple" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:colorPrimary">@color/bluelightPrimary</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:colorAccent">@color/colorAccent</item>
+    </style>
+</resources>

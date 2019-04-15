@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_songs"
+        android:icon="@drawable/headphones1"
+        android:title="Songs" />
+    <item android:id="@+id/radio"
+        android:title="Stations"
+        android:icon="@drawable/radio" />
+    <item android:id="@+id/action_playlist"
+        android:title="About"
+        android:icon="@drawable/about" />
+
+</menu>

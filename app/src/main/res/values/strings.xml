@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Play Music</string>
+    <string name="about"> Play Music is a Music Player developed for educational purpose. Connect with us on these social media platforms.\n \u00a9 All rights reserved Arbaz Sheikh</string>
+    <string name="btn1">FACEBOOK</string>
+    <string name="btn2">INSTAGRAM</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

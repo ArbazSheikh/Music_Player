@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".Radio"
+    android:background="@color/blackPrimaryDark"
+    android:id="@+id/fragment"
+    >
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:id="@+id/toolbar2"
+        android:background="@color/blackPrimary"
+        app:title="Play Music"
+        app:titleTextColor="@color/colorAccent"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginBottom="105dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+           >
+
+
+            <ImageButton
+                android:id="@+id/mirchi"
+                android:scaleType="fitCenter"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:onClick="clicked1"
+                app:srcCompat="@drawable/air1"
+                android:padding="5dp"/>
+
+                <ImageButton
+                    android:id="@+id/insanity"
+                    app:srcCompat="@drawable/capitafm"
+                    android:scaleType="fitCenter"
+                    android:adjustViewBounds="true"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent"
+                    android:layout_weight="1"
+                    android:onClick="clicked2"
+                    android:padding="5dp"
+                    />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            >
+
+            <ImageButton
+                android:id="@+id/hsl"
+                app:srcCompat="@drawable/hot40"
+                android:scaleType="fitCenter"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:background="@android:color/transparent"
+                android:layout_weight="1"
+                android:onClick="clicked3"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                    />
+            <ImageButton
+                android:id="@+id/capital"
+                app:srcCompat="@drawable/now"
+                android:scaleType="fitCenter"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:onClick="clicked6"
+                android:padding="5dp"
+                />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            >
+
+
+                <ImageButton
+                    android:id="@+id/wyep"
+                    app:srcCompat="@drawable/red_fm"
+                    android:scaleType="fitCenter"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:onClick="clicked4"
+                    android:padding="7dp"
+                    />
+
+            <ImageButton
+                android:id="@+id/z95"
+                app:srcCompat="@drawable/mirchi"
+                android:scaleType="fitCenter"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:onClick="clicked5"
+                android:padding="5dp"
+                />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
